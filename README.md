@@ -2,29 +2,12 @@
 personal manual for github
 
 local git: linux command-line
+premise: initialization has been done (see 'Github/initialize')
 
 local git <-> github:
-1.build connection(generate-add SSH-key):
-    in github copy the ssh of the repository 
-    in bash generate a public key from the ssh
-        $ ssh-keygen -t rsa -C "git@github.com:coding2015/Python.git"
-        this will occur three interactive questions, just press enter to choose the default options.
-    in github->settings->SSH keys, add ssh key generated from the last step
-
-2.pull repository from github:
-    in bash copy the repository to current directory from the github:
-        $ git clone "git@github.com:coding2015/Python.git"
-
-3.commit and push local file to github:
-    in bash mark the commit file:
-        $ git add file 
-    then commit the added file：
-        $ git commit 
-    then mark remote-add file to the repository-url of github：
-        $ git remote add argv.py "https://github.com/coding2015/Python.git"
-    then push the remote-added file to github：
-        $ git push argv.py master
-        this will then require your github's username and password
-        
-
-    
+1.pull files from github:
+    $ git pull
+2.push files to github:
+    $ git add files
+    $ git commit -m 'xxx'
+    $ git push
