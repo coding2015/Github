@@ -1,0 +1,6 @@
+local git:
+
+1.delete files:
+    $ git rm file
+    $ git commit -m 'xxx'
+    $ git push
