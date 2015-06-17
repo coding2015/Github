@@ -1,0 +1,3 @@
+$ git mv file1 file2
+$ git commit -m 'xxxx'
+$ git push
