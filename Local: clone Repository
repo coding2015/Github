@@ -1,3 +1,5 @@
+拷贝github的repository到本地
+
 前提：本地和github已存在pubkey关系（见Github/initialize）
 
 1.拷贝github上repository的ssh (eg:git@github.com:coding2015/xxx.git)
