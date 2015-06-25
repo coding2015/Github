@@ -1,0 +1,8 @@
+前提：本地和github已存在pubkey关系（见Github/initialize）
+
+1.拷贝github上repository的ssh (eg:git@github.com:coding2015/xxx.git)
+
+2.在本地克隆(拷贝)github的repository
+    $ git clone 'git@github.com:coding2015/xxx.git'  
+        #注意：不需事前在本地建立项目或初始化
+        #      该操作会把整个repository当作一个目录拷贝下来，其中包括了初始化.git目录
