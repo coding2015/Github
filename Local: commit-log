@@ -1,0 +1,10 @@
+查看本地上传日志：
+    $ git log  #逐行显示从最近开始到早期的上传信息（上传项id, 日期， 标题）
+    
+    
+eg:
+  commit c657c2914d1a22b4c89baad0b8b5bc59e89cde71
+Author: coding2015 <meganhuang2013@icloud.com>
+Date:   Sun Jun 28 00:18:54 2015 +0800
+
+    ch15 socket
