@@ -1,0 +1,12 @@
+忽略文件，使不上传
+在仓库目录下创建 '.gitignore' 文件
+在该文件中添加忽略文件，
+    eg: 忽略后缀为pyc的文件: *.pyc
+    
+    
+.ignore文件书写语法：
+  http://www.cnblogs.com/eddy-he/archive/2012/03/08/git_ignore_file.html
+  http://blog.csdn.net/xmyzlz/article/details/8592302
+
+参考：
+  http://www.thinksaas.cn/group/topic/326694/
