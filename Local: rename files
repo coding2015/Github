@@ -1,3 +1,9 @@
 $ git mv file1 file2
 $ git commit -m 'xxxx'
 $ git push
+
+若是采取本地方式的改名(非'$ git mv', eg: '$ mv '), 
+并想把这类型改动也上传的话，可在添加上传时：
+$ git add -all path    # 此时将自动把这类型改动转换为‘git mv‘改动
+                       # 若无-all 的话，添加上传将默认忽略这部分改动
+                       # 即 '$ git add path' -> '$ git add --ignore-removal path'
